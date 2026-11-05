@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_productspecs_product_specs",
+  "info": {
+    "displayName": "Product Specs"
+  },
+  "options": {},
+  "attributes": {
+    "typicalUse": {
+      "type": "string"
+    },
+    "upperMaterial": {
+      "type": "string"
+    },
+    "lining": {
+      "type": "string"
+    },
+    "soleType": {
+      "type": "string"
+    },
+    "privateLabel": {
+      "type": "string"
+    },
+    "colorRuns": {
+      "type": "string"
+    },
+    "gradeOptions": {
+      "type": "string"
+    },
+    "Sizes": {
+      "type": "component",
+      "component": "catalog.size-matrix",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

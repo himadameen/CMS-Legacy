@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "sections": {
+    "collectionTypes": {
+      "groups": [
+        {
+          "parent": null,
+          "name": "Brand",
+          "id": "grp_8e01a6db53cf41118dc10298",
+          "children": []
+        }
+      ]
+    },
+    "singleTypes": {
+      "groups": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_catalog_size_matrices",
+  "info": {
+    "displayName": "Size Matrix"
+  },
+  "options": {},
+  "attributes": {
+    "eu": {
+      "type": "string"
+    },
+    "uk": {
+      "type": "string"
+    },
+    "us": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

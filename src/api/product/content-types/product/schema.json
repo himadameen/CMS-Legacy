@@ -1,0 +1,93 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "description": {
+      "type": "text"
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "primaryImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "specs": {
+      "type": "component",
+      "component": "productspecs.product-specs",
+      "repeatable": false
+    },
+    "sortOrder": {
+      "type": "integer"
+    },
+    "sub_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sub-category.sub-category",
+      "inversedBy": "products"
+    },
+    "featuredOnHome": {
+      "type": "boolean",
+      "default": false
+    },
+    "homeSort": {
+      "type": "integer"
+    },
+    "quantityAvailable": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "productTags": {
+      "type": "enumeration",
+      "enum": [
+        "hot_sale",
+        "sold",
+        "recommended",
+        "fast_moving",
+        "most_likable",
+        "most_sale",
+        "trending"
+      ],
+      "multiple": true
+    }
+  }
+}
