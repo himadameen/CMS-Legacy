@@ -18,8 +18,8 @@ After restarting Strapi, open **Content Manager → Product**. New fields appear
 | sold | Sold |
 | recommended | Recommended |
 | fast_moving | Fast moving |
-| most_likable | Most Likable |
-| most_sale | Most Sale |
+| most_likable | Most likable |
+| most_sale | Most sale |
 | trending | Trending |
 
 You can pick **more than one** tag per product.

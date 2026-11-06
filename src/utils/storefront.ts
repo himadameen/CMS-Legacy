@@ -39,8 +39,8 @@ export const PRODUCT_TAG_LABELS: Record<string, string> = {
   sold: 'Sold',
   recommended: 'Recommended',
   fast_moving: 'Fast moving',
-  most_likable: 'Most Likable',
-  most_sale: 'Most Sale',
+  most_likable: 'Most likable',
+  most_sale: 'Most sale',
   trending: 'Trending',
 };
 
